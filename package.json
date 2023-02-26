@@ -1,0 +1,21 @@
+{
+  "name": "test_electron",
+  "version": "1.0.0",
+  "description": "test windows electron compilation",
+  "main": "main.js",
+  "author": "ChristianDev123",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "asar": "true",
+    "productName": "test"
+  },
+  "devDependencies": {
+    "electron": "^23.1.1",
+    "electron-builder": "^23.6.0"
+  }
+}
